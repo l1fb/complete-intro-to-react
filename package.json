@@ -4,6 +4,7 @@
     "build": "webpack",
     "watch": "webpack -w",
     "lint": "eslint **/*.{js,jsx} --quiet",
+    "dev": "./node_modules/.bin/webpack-dev-server",
     "format":
       "prettier --list-different --single-quote --print-width=120 \"js/**/*.{js,jsx}\""
   },
